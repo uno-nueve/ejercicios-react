@@ -3,6 +3,7 @@ import './App.css';
 import CompA from './ejercicio-01/compA';
 import Clock from './ejercicio-02/classtofunction';
 import ListComponent from './ejercicio-03/list';
+import ConditionalColors from './ejercicio-04/conditionalColors';
 
 function App() {
   return (
@@ -14,7 +15,10 @@ function App() {
         {/* <Clock></Clock> */}
 
         {/* Ejercicio 3 */}
-        <ListComponent></ListComponent>
+        {/* <ListComponent></ListComponent> */}
+
+        {/* Ejercicio 4 */}
+        <ConditionalColors></ConditionalColors>
     </div>
   );
 }
