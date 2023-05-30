@@ -5,6 +5,7 @@ import Clock from './ejercicio-02/classtofunction';
 import ListComponent from './ejercicio-03/list';
 import ConditionalColors from './ejercicio-04/conditionalColors';
 import TaskListComponent from './ejercicio-05/task_list';
+import RandomJokes from './ejercicio-07/RandomJokes';
 
 function App() {
   return (
@@ -22,7 +23,10 @@ function App() {
         {/* <ConditionalColors></ConditionalColors> */}
 
         {/* Ejercicio 5 */}
-        <TaskListComponent></TaskListComponent>
+        {/* <TaskListComponent></TaskListComponent> */}
+
+        {/* Ejercicio 7 */}
+        <RandomJokes></RandomJokes>
     </div>
   );
 }

@@ -10,10 +10,10 @@ import AppRouting from './ejercicio-06/AppRouting';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <App /> */}
+    <App />
 
     {/* Ejercicio 6 */}
-    <AppRouting />
+    {/* <AppRouting /> */}
   </React.StrictMode>
 );
 
