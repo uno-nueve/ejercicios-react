@@ -6,6 +6,9 @@ import ListComponent from './ejercicio-03/list';
 import ConditionalColors from './ejercicio-04/conditionalColors';
 import TaskListComponent from './ejercicio-05/task_list';
 import RandomJokes from './ejercicio-07/RandomJokes';
+import TodoContainer from './ejercicio-08/components/TodoContainer'
+import TodoFormContainer from './ejercicio-08/components/TodoFormContainer';
+import FilterOptions from './ejercicio-08/components/FilterOptions'
 
 function App() {
   return (
@@ -26,7 +29,14 @@ function App() {
         {/* <TaskListComponent></TaskListComponent> */}
 
         {/* Ejercicio 7 */}
-        <RandomJokes></RandomJokes>
+        {/* <RandomJokes></RandomJokes> */}
+
+        {/* Ejercicio 8 */}
+        <header className='App-header'>
+          <TodoContainer />
+          <TodoFormContainer />
+          <FilterOptions />
+        </header>
     </div>
   );
 }

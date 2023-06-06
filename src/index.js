@@ -5,16 +5,25 @@ import 'bootstrap-icons/font/bootstrap-icons.css'
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+// Routing
 import AppRouting from './ejercicio-06/AppRouting';
 
+// Redux
+import { Provider } from 'react-redux';
+import { createAppStore } from './ejercicio-08/store/config/storeConfig'
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
-  <React.StrictMode>
+  <Provider store={createAppStore()}> 
+    <React.StrictMode>
     <App />
 
     {/* Ejercicio 6 */}
     {/* <AppRouting /> */}
-  </React.StrictMode>
+    </React.StrictMode>
+  </Provider>
 );
 
 // If you want to start measuring performance in your app, pass a function
