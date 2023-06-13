@@ -9,6 +9,7 @@ import RandomJokes from './ejercicio-07/RandomJokes';
 import TodoContainer from './ejercicio-08/components/TodoContainer'
 import TodoFormContainer from './ejercicio-08/components/TodoFormContainer';
 import FilterOptions from './ejercicio-08/components/FilterOptions'
+import TaskListApp from './ejercicio-09/TaskListApp';
 
 function App() {
   return (
@@ -32,11 +33,14 @@ function App() {
         {/* <RandomJokes></RandomJokes> */}
 
         {/* Ejercicio 8 */}
-        <header className='App-header'>
-          <TodoContainer />
-          <TodoFormContainer />
-          <FilterOptions />
-        </header>
+        {/* <header className='App-header'> */}
+          {/* <TodoContainer /> */}
+          {/* <TodoFormContainer /> */}
+          {/* <FilterOptions /> */}
+        {/* </header> */}
+
+        {/* Ejercicio 9 */}
+        <TaskListApp />
     </div>
   );
 }
